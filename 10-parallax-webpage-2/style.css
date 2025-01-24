@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.first-image,
+.second-image,
+.third-image,
+.fourth-image {
+  min-height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.first-image {
+  background-image: url(./images/I1.jpg);
+  opacity: 0.85;
+}
+
+.second-image {
+  background-image: url(./images/I2.jpg);
+}
+
+.third-image {
+  background-image: url(./images/I3.jpg);
+}
+
+.fourth-image {
+  background-image: url(./images/I4.jpg);
+  opacity: 0.9;
+}
+
+section {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.section-light {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.section-dark {
+  background-color: #222;
+  color: #fff;
+}
+
+.secondary-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 10;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+}
+
+.first-image span,
+.fourth-image span {
+  background-color: #242323;
+}
