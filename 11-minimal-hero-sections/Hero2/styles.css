@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: #333;
+  color: #f9f9f9;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: flex-end;
+}
+
+.navbar button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body.dark .navbar button {
+  background-color: #4a90e2;
+  color: #000;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 60px 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.content p {
+  margin: 10px 0 20px;
+  font-size: 1.2rem;
+}
+
+.content form {
+  display: flex;
+  gap: 10px;
+}
+
+.content input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.content button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body.dark .content button {
+  background-color: #4a90e2;
+}
+
+.trusted-by {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.brand-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo {
+  max-height: 40px;
+  margin-right: 10px;
+  padding: 0 30px;
+}
+
+.hero-img {
+  border-radius: 10px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
