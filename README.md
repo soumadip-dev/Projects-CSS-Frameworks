@@ -14,5 +14,7 @@ This repository contains all my CSS learning projects. Each project demonstrates
 8. [08 - Photography Website](./08-photography-website)  
 9. [09 - Dribble Clone](./09-Dribble-clone)  
 10. [10 - Parallax Webpage 2](./10-parallax-webpage-2)  
+11. [11 - Minimal Hero Sections](./11-minimal-hero-sections)  
 
 To view the projects, simply click on the links above to explore each folder. You can also clone the repository to your local machine to run the projects.
+
