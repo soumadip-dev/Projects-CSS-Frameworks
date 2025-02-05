@@ -1,8 +1,8 @@
-# CSS Learning Projects
+# CSS Learning Projects  
 
-This repository contains all my CSS learning projects. Each project showcases different CSS concepts and techniques, ranging from basic styling to advanced layouts and animations. This collection serves as a comprehensive resource for my journey in mastering CSS.
+This repository contains all my CSS learning projects. Each project demonstrates different CSS concepts and techniques, ranging from basic styling to advanced layouts and animations. This collection serves as a comprehensive resource for my journey in mastering CSS.  
 
-## Projects
+## Projects  
 
 - [01 - Basic Landing Page](./01-basic-landing-page)  
 - [02 - Flexbox Landing Page](./02-flexbox-landing-page)  
@@ -17,5 +17,6 @@ This repository contains all my CSS learning projects. Each project showcases di
 - [11 - Minimal Hero Sections](./11-minimal-hero-sections)  
 - [12 - Landing Pages](./12-landing-pages)  
 - [13 - Pricing Table](./13-pricing-table)  
+- [14 - Bootstrap E-commerce App](./14-Bootstrap-Ecommerce%20app)  
 
-To explore the projects, click on the links above to navigate to each folder. You can also clone the repository to your local machine to run the projects.
+To explore these projects, click on the links above to navigate to each folder. You can also clone the repository to your local machine to run the projects.
