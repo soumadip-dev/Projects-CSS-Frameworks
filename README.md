@@ -39,4 +39,3 @@
 ```bash
 git clone https://github.com/soumadip-dev/Projects-CSS-Frameworks.git
 cd Projects-CSS-Frameworks
-# Open the project folder in a browser
