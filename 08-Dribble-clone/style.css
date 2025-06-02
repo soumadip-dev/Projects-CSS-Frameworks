@@ -1,0 +1,465 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Page and body styling */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #f8f7f4;
+  font-size: 16px;
+}
+
+/* Page container */
+#page1 {
+  height: fit-content;
+  width: 100%;
+}
+
+/* Navigation bar styles */
+#nav {
+  height: 6.25rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+}
+
+/* Left part of the navigation bar */
+#nav-part1 {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Styling for nav items */
+#nav-part1 h4 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Right part of the navigation bar */
+#nav-part2 {
+  width: 26%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Search input field styling */
+#rounded-search {
+  border-radius: 9999999px;
+  padding: 0.625rem;
+  height: 3.1875rem;
+  width: 50%;
+  border: none;
+  outline: 0;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+#rounded-search:focus {
+  border: 0.3125rem solid rgba(255, 192, 203, 0.322);
+}
+
+/* Button styling in the navigation bar */
+#nav-part2 button {
+  padding: 0.9375rem 1.375rem;
+  font-weight: 600;
+  border: none;
+  background-color: black;
+  color: #fff;
+  border-radius: 3.125rem;
+  font-size: 1.0625rem;
+  margin: 0 0.625rem;
+  cursor: pointer;
+}
+
+#nav-part2 button:nth-child(2) {
+  background-color: transparent;
+  color: #000;
+  font-size: 0.875rem;
+}
+
+/* Logo styling */
+#nav img {
+  height: 3.4375rem;
+  margin-left: 5.625rem;
+  cursor: pointer;
+}
+
+/* Main content styles */
+#content {
+  width: 100%;
+  padding-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Highlighted text */
+#content h3 {
+  background-color: #f9ade8;
+  width: fit-content;
+  padding: 0.625rem 1rem;
+  border-radius: 3.125rem;
+  cursor: pointer;
+  letter-spacing: 0.0625rem;
+  font-size: 0.9em;
+}
+
+/* Main heading */
+#content h1 {
+  font-size: 4.4375rem;
+  line-height: 4.375rem;
+  font-weight: 400;
+  letter-spacing: 0.05625rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin: 3.25rem 0 2rem 0;
+}
+
+/* Subheading */
+#content h2 {
+  font-size: 1.3125rem;
+  line-height: 2.25rem;
+  font-weight: normal;
+}
+
+/* Main button */
+#content button {
+  padding: 1.125rem 1.375rem;
+  font-weight: 600;
+  border: none;
+  background-color: black;
+  color: #fff;
+  border-radius: 3.125rem;
+  font-size: 1.0625rem;
+  margin: 1.875rem 0.625rem 3.75rem 0.625rem;
+}
+
+/* Featured designers section styles */
+#bottom {
+  height: 22.5rem;
+  width: 100%;
+  padding: 0.3125rem;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Individual designer cards */
+.bottom-part {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  animation: animations 40s linear infinite;
+}
+
+#bottom::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes animations {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Designer card elements */
+.bottom-part .elem {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 17.5rem;
+  margin-right: 1.875rem;
+  border-radius: 3.125rem;
+  overflow: hidden;
+}
+
+/* Image styles within cards */
+.elem img,
+.elem video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Text overlay in designer cards */
+.elem .text-bottom {
+  height: 29%;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.034);
+  color: white;
+  padding: 0.625rem 1.25rem;
+}
+
+/* Text and buttons within cards */
+#text {
+  margin: 1vh;
+}
+
+#button {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-top: 1.1vh;
+}
+
+#button h6 {
+  padding: 0.3125rem 0.625rem;
+  border: 0.0625rem solid rgb(75, 74, 74);
+  border-radius: 3.125rem;
+  cursor: pointer;
+}
+
+/* Placeholder for additional page content */
+#page2 {
+  width: 100%;
+  position: relative;
+  padding: 4.375rem;
+  padding-top: 12.5rem;
+}
+
+#page2 h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 3.125rem;
+  margin-bottom: 3.125rem;
+}
+
+.box {
+  height: 20rem;
+  width: 25rem;
+  border-radius: 0.625rem;
+  overflow: hidden;
+  display: inline-block;
+  margin: 1.1875rem;
+  position: relative;
+}
+
+.box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.box-bottom {
+  height: 40%;
+  width: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.63));
+  position: absolute;
+  bottom: -40%;
+  transition: all ease 0.5s;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+}
+
+.box-bottom #icon i {
+  background-color: white;
+  padding: 0.5rem 0.5625rem;
+  color: #000;
+  font-size: 1.1875rem;
+  font-weight: 600;
+  border-radius: 50%;
+  justify-content: flex-end;
+  margin: 0.3125rem;
+}
+.box-bottom h5 {
+  font-size: 1.125rem;
+  width: 70%;
+}
+.box:hover .box-bottom {
+  bottom: 0;
+}
+.box:hover {
+  box-shadow: 0 0.125rem 1.25rem rgba(123, 123, 123, 0.498); /* 0 2px 20px */
+}
+
+#page2-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page2 button {
+  padding: 1.1875rem;
+  font-weight: 400;
+  border: 0.0625rem solid black;
+  color: black;
+  border-radius: 3.125rem;
+  font-size: 1.0625rem;
+  margin: 1.875rem 0 5.9375rem 0;
+  cursor: pointer;
+}
+
+#page3 {
+  width: 100%;
+  height: 100%;
+}
+
+#join {
+  height: 43.75rem;
+  background-color: #ffda79;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7.1875rem 0;
+}
+
+#join h2 {
+  line-height: 4.375rem;
+  max-width: 41.875rem;
+  margin: 0 auto;
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 0.05625rem;
+  font-family: 'Playfair Display', serif;
+}
+
+#join p {
+  max-width: 35.625rem;
+  margin: 1.5625rem auto;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  font-weight: 400;
+}
+
+#join button {
+  padding: 1.1875rem;
+  font-weight: 400;
+  background-color: black;
+  border: 0.0625rem solid black;
+  color: white;
+  border-radius: 3.125rem;
+  font-size: 1.0625rem;
+  margin: 1.875rem 0.3125rem 3.75rem 0.3125rem;
+  cursor: pointer;
+}
+
+#join #white-button {
+  background-color: white;
+  border: 0.0625rem solid white;
+  color: #000;
+}
+
+#join h3 {
+  max-width: 37.5rem;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  font-weight: 400;
+}
+
+#join h3 span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* ......Footer ....  */
+.footerScroller {
+  background-color: #ffffff;
+  width: 100%;
+  height: 30vh;
+  padding: 3vw;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1.875rem;
+  overflow: hidden;
+}
+.wrapper {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  gap: 1.875rem;
+  flex-shrink: 0;
+  animation-name: marquee;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.wrapperContainer {
+  width: 10vw;
+  height: 100%;
+  overflow: hidden;
+}
+.wrapperContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+footer {
+  background-color: #ffffff;
+  width: 100%;
+  height: 28vh;
+  padding: 0 18.75rem;
+}
+#wrap-footer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  margin-top: 2vw;
+  padding: 2vw 3vw;
+}
+.footer-part1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.footer-part1 img {
+  height: 3vw;
+  margin-top: -0.625rem;
+}
+.footer-part1 .icons i {
+  font-size: 1.2vw;
+}
+.footer-part1 div {
+  margin-left: 4.5vw;
+  display: flex;
+  gap: 1.4vw;
+  font-weight: 600;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-part1 div a {
+  color: black;
+  text-decoration: none;
+  font-size: 0.9375rem;
+}
+.footer-part2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-part2 div {
+  display: flex;
+  gap: 1.2vw;
+  color: #828282;
+}

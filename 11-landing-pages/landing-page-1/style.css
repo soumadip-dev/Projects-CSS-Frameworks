@@ -1,0 +1,147 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #333333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 60px;
+  z-index: 3;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.logo img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.nav-links a {
+  margin: 10px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:hover {
+  color: #ff6a00;
+}
+
+/* Hero section styles */
+.hero {
+  background: url(./assets/fitgym.png) no-repeat center center/cover;
+  height: 92.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.493);
+  z-index: 1;
+}
+
+.hero-content {
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: #ff6a00;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.cta-button:hover {
+  background: linear-gradient(45deg, #ff8a00, #ff6a00);
+  color: white;
+  transform: scale(1.05);
+}
+
+.features {
+  padding: 70px 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 90px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.781);
+  color: white;
+  z-index: 1;
+}
+
+.feature {
+  border: 3px solid #ff6a00;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.feature h3 {
+  color: #ff6a00;
+}
+
+.feature p {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background-size: contain;
+  }
+
+  .features {
+    padding: 40px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .feature {
+    width: 100%;
+  }
+}
