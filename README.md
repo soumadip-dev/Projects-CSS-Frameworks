@@ -28,6 +28,7 @@ Collection of projects showcasing CSS and Tailwind concepts
 |    <div align="center"><br>07 - **[Photography Website](./07-photography-website) 📷**</div>    |           <div align="center"><br>08 - **[Dribbble Clone](./08-Dribble-clone) 🎨**</div>            |
 |     <div align="center"><br>09 - **[Parallax Webpage 2](./09-parallax-webpage-2) 🌅**</div>     |    <div align="center"><br>10 - **[Minimal Hero Sections](./10-minimal-hero-sections) 🖋️**</div>    |
 |          <div align="center"><br>11 - **[Landing Pages](./11-landing-pages) 📜**</div>          |            <div align="center"><br>12 - **[Pricing Table](./12-pricing-table) 💲**</div>            |
+|     <div align="center"><br>13 - **[Branding Site](./13-branding-site-tailwind) 🏷️**</div>      |         <div align="center"><br>14 - **[Photography](./14-Photography-tailwind) 📸**</div>          |
 
 </div>
 

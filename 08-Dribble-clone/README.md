@@ -6,7 +6,7 @@ A **Dribbble Clone** website built using **HTML** and **CSS**, designed to repli
 
 ## 🖼️ Screenshot
 
-![Screenshot](https://github.com/soumadip-dev/CSS-Learning-Projects/blob/main/09-Dribble-clone/images/Screenshot.png)
+![Screenshot](./images/Screenshot.png)
 
 ## 🌟 Features
 
